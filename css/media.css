@@ -126,11 +126,17 @@
         position: absolute;
         flex-direction: column;
         background: var(--bg-dark);
-        left: 0;
-        right: 0;
+        left: 100%;
+        right: -100%;
         bottom: 0;
         top: 0;
         padding: 30px 0 0 30px;
+        transition: 0.6s ease-in-out;
+    }
+
+    .menu.active{
+        left: 0;
+        right: 0;
     }
 
     .menu-list:not(:last-child) {
