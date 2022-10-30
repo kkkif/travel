@@ -33,3 +33,7 @@ $(document).ready(function () {
     $(".menu").toggleClass("active");
     })
 });
+
+AOS.init({
+    duration: 1200
+});
