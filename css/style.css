@@ -519,6 +519,7 @@ body {
 .footer {
     background: var(--bg-dark-lt);
     padding: 122px 0 53px;
+    margin-top: -1px;
 }
 
 .footer-title {
@@ -557,4 +558,8 @@ body {
 
 .footer-item a:hover svg{
     fill: var(--color-violet);
+}
+
+[data-aos=zoom-in-left] {
+    transform: inherit;
 }
