@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
     <title>Travel</title>
@@ -15,9 +16,9 @@
     <!-- header.header>.header-top>h1.header-title+p.header-subtitle+form.header-form>input.search+btn.btn.header-btn.bg--violet -->
     <header class="header">
         <div class="header-top">
-            <h1 class="header-title">Bhromaon</h1>
-            <p class="header-subtitle">Safe Travel Anywhere</p>
-            <form action="" class="header-form">
+            <h1 class="header-title" data-aos="zoom-in" data-aos-delay="600">Bhromaon</h1>
+            <p class="header-subtitle" data-aos="zoom-in" data-aos-delay="800">Safe Travel Anywhere</p>
+            <form action="" class="header-form" data-aos="zoom-in" data-aos-delay="900">
                 <input type="text" class="search" placeholder="Search Your Travel Destination">
                 <button class="btn header-btn bg--violet">Search</button>
             </form>
@@ -63,8 +64,8 @@
                     <button class="btn choose-btn bg--violet">Explore Places</button>
                 </div>
                 <div class="choose-right">
-                    <figure><img src="img/choose1.jpg" alt=""></figure>
-                    <figure><img src="img/choose2.jpg" alt=""></figure>
+                    <figure data-aos="zoom-in"><img src="img/choose1.jpg" alt=""></figure>
+                    <figure data-aos="zoom-in"><img src="img/choose2.jpg" alt=""></figure>
                 </div>
             </div>
         </section>
@@ -72,19 +73,19 @@
 
         <div class="works">
             <div class="container works-wrapper">
-                <div class="works-block">
+                <div class="works-block" data-aos="zoom-in-left" data-aos-easing="ease-out-cubic"  data-aos-duration="1000">
                     <span class="works-search">
                         <img src="img/search-icon.svg" alt="">
                     </span>
                     <p class="search-text">Search Places</p>
                 </div>
-                <div class="works-block">
+                <div class="works-block" data-aos="zoom-in-left" data-aos-easing="ease-out-cubic"  data-aos-duration="1500">
                     <span class="works-search">
                         <img src="img/select.svg" alt="">
                     </span>
                     <p class="search-text">Select Places</p>
                 </div>
-                <div class="works-block">
+                <div class="works-block" data-aos="zoom-in-left" data-aos-easing="ease-out-cubic"  data-aos-duration="2000">
                     <span class="works-search">
                         <img src="img/shaper.svg" alt="">
                     </span>
@@ -97,7 +98,12 @@
         <section class="booking">
             <div class="booking-block">
                 <div class="container booking-wrapper">
-                    <div class="booking-descript">
+                    <div class="booking-descript" 
+                        data-aos="fade-zoom-in"
+                        data-aos-easing="ease-in-back"
+                        data-aos-delay="300"
+                        data-aos-offset="0"
+                    >
                         <p class="booking-country">Spain</p>
                         <p class="booking-hotel">Grand Spain Madrid</p>
                         <p class="booking-text">But I must explain to you how all this mistaken idea of account to
@@ -109,7 +115,12 @@
             </div>
             <div class="booking-block">
                 <div class="container booking-wrapper">
-                    <div class="booking-descript">
+                    <div class="booking-descript"
+                        data-aos="fade-zoom-in"
+                        data-aos-easing="ease-in-back"
+                        data-aos-delay="300"
+                        data-aos-offset="0"
+                    >
                         <p class="booking-country">Spain</p>
                         <p class="booking-hotel">Grand Spain Madrid</p>
                         <p class="booking-text">But I must explain to you how all this mistaken idea of account to
@@ -122,7 +133,12 @@
         </section>
         <!-- End Booking -->
 
-        <section class="testimonials">
+        <section class="testimonials" 
+            data-aos="zoom-in-up"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="0"
+            data-aos-duration="0"
+        >
             <h3 class="testimonials-title">What Our Tourist Say</h3>
             <div class="container testimonials-sliders sliders">
                 <div class="slider">
@@ -217,6 +233,7 @@
     </footer>
     <script src="js/jquery-3.6.1.min.js"></script>
     <script src="js/slick.min.js"></script>
+    <script src="js/aos.js"></script>
     <script src="js/main.js"></script>
 </body>
 
